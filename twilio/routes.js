@@ -40,9 +40,8 @@ router.get('/answer/:id', (req, res) => {
 })
 
 router.get('/final', (req, res) => {
-    const outmessage = textGet(`responses:finish`);
 
-    let message = textGet(`responses:${req.params.msg}`);
+    const message = textGet(`responses:finish`);
 
     res.send(handleCallPickUp([ message ]));
 

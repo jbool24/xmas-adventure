@@ -17,6 +17,9 @@
     "url": "https://github.com/jbool24/xmas-adventure/issues"
   },
   "homepage": "https://github.com/jbool24/xmas-adventure#readme",
+  "engines" : { 
+    "node" : ">=10.14" 
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
