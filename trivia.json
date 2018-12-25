@@ -1,13 +1,13 @@
 {
   "questions": {
     "one": ["People go round and round me, Adding some lights on a string; And later underneath me, They place the gifts that they bring. For your next clue, check underneath my skirt.", "Christmas Tree"],
-    "two": ["Why is the alphabet shorter at Christmas time?", "Because, there is noel"],
-    "three": ["We are in the Harry Potter books, And Lord Of The Rings too; Some help to make lots of Christmas gifts, That Santa brings to you", "elves"],
+    "two": ["Why is the alphabet shorter at Christmas time?", "Because, there is no 'L'"],
+    "three": ["We are in the Harry Potter books, And Lord Of The Rings too; Some help to make lots of Christmas gifts, That Santa brings to you", "Elves"],
     "four": ["What do you get when you cross a vampire and a snowman?", "Frostbite"]
   },
   "responses": {
     "welcome": "Hello and Merry Christmas. I know you want your gift but you are going have to solve a few riddles first. I'll send you some clues to guide you through. Here we go...", 
     "first": "For your first clue, scan the tag under your shoe",
-    "finish": "Thanks for playing with Santa. For being a good sport I'd like to get you a gift. Santa has upgraded and is high-tech this year. Just texts back your present request and I'll send my Amazon reindeer to bring it just for you. Merry Christmas"
+    "final": "Thanks for playing. For being a good sport I'd like to get you a gift. Santa has upgraded and is high-tech this year. Just let my helper know your present choice and I'll send my Amazon reindeer to deliver it just for you. Merry Christmas!"
   }
 }

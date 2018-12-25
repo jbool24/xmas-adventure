@@ -4,7 +4,6 @@ const textMessages = require('./trivia.json');
 
 exports.textGet = function textGet(string = '', delimeter = ':') {
     const [section, id] = string.split(delimeter);
-    console.log('Parsing %s with id %s', section, id)
     return textMessages[section][id];
 }
 

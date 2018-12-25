@@ -41,6 +41,20 @@ server.post('/entrypoint', (req, res) => {
         res.redirect('/oops.html');
     }
 
+});
+
+server.get('/finish', (req, res) => {
+    try {
+        const options = {
+            destination: getRegisteredNumbers()[0] || '9084562367', 
+            webhookURL: `${process.env.HOSTURL}/twilio/response/final`
+        };
+
+        initiateCall(options).catch((err) => { throw err; });
+    } catch(err) {
+        console.log(err);
+    }
+    res.end();
 })
 
 server.use('/twilio', twilioRoutes);

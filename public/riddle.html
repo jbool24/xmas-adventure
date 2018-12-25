@@ -119,19 +119,27 @@
 </head>
 
 <body class="text-center">
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function(event) { 
+      const elem = document.getElementById('answer');
+      if (window.location.pathname.includes('answer')) elem.style.display="none";
+    });
+  </script>
 
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
-      <!-- <div class="inner">
+      <div class="inner">
         <h3 class="masthead-brand">Christmas 2018</h3>
         <nav class="nav nav-masthead justify-content-center">
         </nav>
-      </div> -->
+      </div>
     </header>
 
     <main role="main" class="inner cover">
 
       <h1 class="cover-heading">{{ riddle }}</h1>
+      <br><br>
+      <h2 id="answer"><a href="/twilio/answer/{{ answerID }}">Need Help? Click</a></h2>
 
     </main>
 
@@ -140,6 +148,7 @@
         <p>Xmas 2018, by <a href="https://twitter.com/jbool24">@jbool24</a>.</p>
       </div>
     </footer>
+
   </div>
 </body>
 
