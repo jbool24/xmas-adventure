@@ -1,9 +1,9 @@
 {
   "questions": {
     "one": ["People go round and round me, Adding some lights on a string; And later underneath me, They place the gifts that they bring. For your next clue, check underneath my skirt.", "Christmas Tree"],
-    "two": ["Why is the alphabet shorter at Christmas time?", "Because, there is no 'L'"],
-    "three": ["We are in the Harry Potter books, And Lord Of The Rings too; Some help to make lots of Christmas gifts, That Santa brings to you", "Elves"],
-    "four": ["What do you get when you cross a vampire and a snowman?", "Frostbite"]
+    "two": ["Why is the alphabet shorter at Christmas time?", "Because, there is no 'L'. For your next clue find 'noel'"],
+    "three": ["We are in the Harry Potter books, And Lord Of The Rings too; Some help to make lots of Christmas gifts, That Santa brings to you", "Elves. Look for the Elf on the Shelf with the next clue"],
+    "four": ["What do you get when you cross a vampire and a snowman?", "Frostbite. Check frosty by the door."]
   },
   "responses": {
     "welcome": "Hello and Merry Christmas. I know you want your gift but you are going to have to solve a few riddles first. I'll send you some clues to guide you through. Here we go...", 

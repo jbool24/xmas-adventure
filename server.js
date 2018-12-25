@@ -50,7 +50,9 @@ server.get('/finish', (req, res) => {
             webhookURL: `${process.env.HOSTURL}/twilio/response/final`
         };
 
-        initiateCall(options).catch((err) => { throw err; });
+        initiateCall(options).catch((err) => { throw err; })
+            .then(() => res.redirect('/finish.html'))
+            .catch((err) => { throw err; });;
     } catch(err) {
         console.log(err);
     }
