@@ -1,7 +1,6 @@
 'use strict';
 
 const express = require('express');
-const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 
 console.log(''.padStart(80,'#'));
@@ -9,6 +8,7 @@ console.log('Bootstraping server');
 console.log(''.padStart(80,'#'));
 
 if (process.env.NODE_ENV === 'development') {
+    const dotenv = require('dotenv');
     console.log('> Importing configs from local');
     dotenv.config();
 }

@@ -46,9 +46,7 @@ router.get('/final', (req, res) => {
 
     res.send(handleCallPickUp([ message ]));
 
-    res.send(template.replace(/{{.*}}/g, outmessage));
 })
-
 
 router.post('/response/:msg', validateRequest, (req, res) => {
 
