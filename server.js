@@ -46,7 +46,7 @@ server.post('/entrypoint', (req, res) => {
 server.get('/finish', (req, res) => {
     try {
         const options = {
-            destination: getRegisteredNumbers()[0] || '9084562367', 
+            destination: getRegisteredNumbers()[0], 
             webhookURL: `${process.env.HOSTURL}/twilio/response/final`
         };
 
