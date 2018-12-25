@@ -6,8 +6,8 @@
     "four": ["What do you get when you cross a vampire and a snowman?", "Frostbite"]
   },
   "responses": {
-    "welcome": "Hello and Merry Christmas. I know you want your gift but you are going have to solve a few riddles first. I'll send you some clues to guide you through. Here we go...", 
-    "first": "For your first clue, scan the tag under your shoe.",
-    "final": "Thanks for playing. For being a good sport I'd like to get you a gift. Santa has upgraded and is high-tech this year. Just let my helper know your present choice and I'll send my Amazon reindeer to deliver it just for you. Merry Christmas!"
+    "welcome": "Hello and Merry Christmas. I know you want your gift but you are going to have to solve a few riddles first. I'll send you some clues to guide you through. Here we go...", 
+    "first": "For your first clue, scan the tag under your shoe. Good Luck",
+    "final": "Thanks for playing. For being a good sport I'd like to get you a gift. Santa has upgraded and is high-tech this year. Just let my helper know your gift choice and I'll send my Amazon reindeer to deliver it just for you. Merry Christmas!"
   }
 }
